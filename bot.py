@@ -29,8 +29,8 @@ async def on_ready():
 async def on_message(message):
     if message.author == client.user:
         return
-    if message.content.startswith('!piwo'):
-        await message.channel.send("https://tenor.com/view/piwo-gif-9134806494356314119")
+    if message.content.startswith('!puppy'):
+        await message.channel.send("https://tenor.com/view/funny-animals-corgi-cogi-puppy-cute-dog-gif-11907487")
 
 @commandtree.command(name='bet', description='bet on a team')
 async def bet(interaction: discord.Interaction, team1: str, team2: str, home_goals: str, away_goals: str):
